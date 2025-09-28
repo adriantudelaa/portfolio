@@ -6,46 +6,47 @@ import { motion, useInView } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 const frontendSkills = [
-  "React",
-  "Next.js",
-  "TypeScript",
-  "JavaScript",
   "HTML5",
   "CSS3",
+  "JavaScript (ES6+)",
+  "TypeScript",
+  "React",
+  "Bootstrap",
   "Tailwind CSS",
-  "Framer Motion",
-  "Redux",
-  "React Query",
-  "Styled Components",
-]
+  "WordPress",
+  "Elementor",
+  "UI/UX Design",
+  "Responsive Design",
+  "Figma"
+];
 
 const backendSkills = [
   "Node.js",
-  "Express",
-  "NestJS",
+  "Express.js",
+  "PHP",
+  "Java",
   "Python",
-  "MongoDB",
-  "PostgreSQL",
-  "Firebase",
-  "GraphQL",
-  "REST APIs",
-  "Prisma",
-  "Sequelize",
-]
+  "SQL",
+  "MySQL",
+  "SQLite",
+  "RESTful APIs",
+  "Autenticación y Seguridad (JWT, OAuth)"
+];
 
 const toolsSkills = [
   "Git",
   "GitHub",
-  "Docker",
-  "AWS",
-  "Vercel",
-  "Netlify",
-  "Figma",
-  "Adobe XD",
-  "Jest",
-  "Cypress",
-  "CI/CD",
-]
+  "Visual Studio Code",
+  "Postman",
+  "XAMPP / WAMP",
+  "NPM / Yarn",
+  "Docker (básico)",
+  "CMS (WordPress)",
+  "Meta Business Suite",
+  "Microsoft 365",
+  "Google Workspace"
+];
+
 
 export function SkillsSection() {
   const ref = useRef(null)

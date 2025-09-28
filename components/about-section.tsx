@@ -35,22 +35,17 @@ export function AboutSection() {
             </div>
 
             <div className="space-y-4">
-              <p>
-                Soy un desarrollador Full Stack con más de 5 años de experiencia en el desarrollo de aplicaciones web y
-                móviles. Me especializo en crear experiencias de usuario intuitivas y atractivas utilizando las últimas
-                tecnologías.
-              </p>
-              <p>
-                Mi experiencia abarca desde el diseño de interfaces hasta la implementación de arquitecturas escalables
-                en el backend. He trabajado en proyectos para startups y empresas establecidas, lo que me ha permitido
-                desarrollar habilidades para adaptarme a diferentes entornos y metodologías de trabajo.
-              </p>
-              <p>
-                Me apasiona aprender nuevas tecnologías y compartir conocimientos con la comunidad. Participo
-                activamente en eventos y conferencias relacionadas con el desarrollo web y contribuyo a proyectos de
-                código abierto.
-              </p>
-            </div>
+  <p>
+    Soy un desarrollador y técnico informático con formación en Desarrollo de Aplicaciones Multiplataforma (DAM) y experiencia en el desarrollo web, la administración de sistemas y el soporte tecnológico. Disfruto creando soluciones digitales funcionales y eficientes que combinan buen diseño, rendimiento y facilidad de uso.
+  </p>
+  <p>
+    He participado en proyectos de mejora y mantenimiento de plataformas online, desarrollo de plugins personalizados en PHP, gestión de contenidos con WordPress y administración de redes y equipos informáticos. Esta experiencia me ha permitido adquirir una visión completa del entorno tecnológico y adaptarme con rapidez a diferentes necesidades y entornos de trabajo.
+  </p>
+  <p>
+    Soy una persona responsable, proactiva y con gran capacidad de aprendizaje. Me motiva seguir formándome en nuevas tecnologías y metodologías de desarrollo para seguir creciendo como profesional y aportar soluciones innovadoras en cada proyecto.
+  </p>
+</div>
+
 
             <Button asChild>
               <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">

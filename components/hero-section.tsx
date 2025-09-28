@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { useRef } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { motion, useInView } from "framer-motion"
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
+import { useRef } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { motion, useInView } from "framer-motion";
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <section className="relative py-12 md:py-24 lg:py-32 overflow-hidden">
@@ -26,12 +26,17 @@ export function HeroSection() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter">
               Hola, soy <span className="text-primary">Adrián Tudela</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground">Desarrollador Full Stack</p>
+            <p className="text-xl md:text-2xl text-muted-foreground">
+              Desarrollador y técnico informático
+            </p>
           </div>
 
           <p className="text-muted-foreground md:text-xl max-w-[600px]">
-            Técnico superior en DAM. Creo aplicaciones web y móviles modernas con las últimas tecnologías. Especializado en React, Next.js,
-            Node.js y diseño de experiencias de usuario.
+            Técnico Superior en Desarrollo de Aplicaciones Multiplataforma
+            (DAM). Desarrollo y mantengo aplicaciones web y soluciones digitales
+            combinando diseño, funcionalidad y rendimiento. Experiencia en
+            WordPress, PHP y administración de sistemas, con interés en
+            tecnologías modernas como React y Next.js.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -45,7 +50,7 @@ export function HeroSection() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/adriantudela"
+              href="https://github.com/adriantudelaa"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -54,7 +59,7 @@ export function HeroSection() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link
-              href="https://linkedin.com/in/adriantudelaa"
+              href="https://linkedin.com/in/adrián-tudela-vidal"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -63,7 +68,7 @@ export function HeroSection() {
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link
-              href="mailto:adri40295@gmail.com"
+              href="mailto:info.atudela@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Mail className="h-6 w-6" />
@@ -104,5 +109,5 @@ export function HeroSection() {
         </Button>
       </motion.div>
     </section>
-  )
+  );
 }

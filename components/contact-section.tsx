@@ -67,30 +67,30 @@ export function ContactSection() {
             <CardContent className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <a href="mailto:email@example.com" className="hover:underline">
-                  email@example.com
+                <a href="mailto:info.atudela@example.com" className="hover:underline">
+                  info.atudela@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Github className="h-5 w-5 text-primary" />
                 <a
-                  href="https://github.com/username"
+                  href="https://github.com/adriantudelaa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline"
                 >
-                  github.com/username
+                  github.com/adriantudelaa
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Linkedin className="h-5 w-5 text-primary" />
                 <a
-                  href="https://linkedin.com/in/username"
+                  href="https://linkedin.com/in/adrián-tudela-vidal"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline"
                 >
-                  linkedin.com/in/username
+                  linkedin.com/in/adrián-tudela-vidal
                 </a>
               </div>
             </CardContent>

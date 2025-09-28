@@ -14,10 +14,10 @@ interface ProjectCardProps {
   description: string
   tags: string[]
   image: string
-  slug: string
+  link: string
 }
 
-export function ProjectCard({ title, description, tags, image, slug }: ProjectCardProps) {
+export function ProjectCard({ title, description, tags, image, link }: ProjectCardProps) {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
@@ -28,7 +28,7 @@ export function ProjectCard({ title, description, tags, image, slug }: ProjectCa
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
       transition={{ duration: 0.5 }}
     >
-      <Link href={`/proyectos/${slug}`}>
+      <Link href={`${link}`}>
         <Card className="overflow-hidden h-full transition-all duration-200 hover:shadow-md hover:-translate-y-1">
           <div className="relative aspect-video overflow-hidden">
             <Image

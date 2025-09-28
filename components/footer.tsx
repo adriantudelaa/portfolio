@@ -13,7 +13,7 @@ export function Footer() {
 
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/username"
+            href="https://github.com/adriantudelaa"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -22,7 +22,7 @@ export function Footer() {
             <span className="sr-only">GitHub</span>
           </Link>
           <Link
-            href="https://linkedin.com/in/username"
+            href="https://linkedin.com/in/adrián-tudela-vidal"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -31,16 +31,7 @@ export function Footer() {
             <span className="sr-only">LinkedIn</span>
           </Link>
           <Link
-            href="https://twitter.com/username"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <Twitter className="h-5 w-5" />
-            <span className="sr-only">Twitter</span>
-          </Link>
-          <Link
-            href="mailto:email@example.com"
+            href="mailto:info.atudela@gmail.com"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <Mail className="h-5 w-5" />
