@@ -85,7 +85,7 @@ export function HeroSection() {
         >
           <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-primary/20">
             <Image
-              src="/placeholder.svg?height=400&width=400"
+              src="/foto0.png?height=400&width=400"
               alt="Foto de perfil"
               fill
               className="object-cover"

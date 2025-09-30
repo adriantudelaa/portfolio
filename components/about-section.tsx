@@ -23,7 +23,7 @@ export function AboutSection() {
           className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
         >
           <div className="relative aspect-square w-full max-w-md mx-auto lg:mx-0 rounded-lg overflow-hidden">
-            <Image src="/placeholder.svg?height=600&width=600" alt="Foto de perfil" fill className="object-cover" />
+            <Image src="/foto1.png?height=600&width=600" alt="Foto de perfil" fill className="object-cover" />
           </div>
 
           <div className="space-y-6">
@@ -48,7 +48,7 @@ export function AboutSection() {
 
 
             <Button asChild>
-              <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/CV_ADRIAN_TUDELA_VIDAL.pdf" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" />
                 Descargar CV
               </Link>
